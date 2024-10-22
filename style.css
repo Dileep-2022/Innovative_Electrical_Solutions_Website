@@ -1,0 +1,174 @@
+body {
+
+    scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
+    background-color:  rgb(43, 46, 59);
+    background-size: auto;
+    color: white;
+    margin: 0;
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(6, 10, 68);
+  color: white;
+  padding: 10px 0 !important;
+    /* border-radius: 0 0 10px 10px; */
+}
+.navbar a{
+ 
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.navbar a:hover{
+    background-color: rgb(11, 33, 191);
+    
+    border-bottom: 2px solid rgb(171, 162, 241);
+}
+
+.hero {
+ 
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+  text-justify: inter-word;
+}
+.c-data{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+
+ .btn {
+    background-color: rgb(61, 43, 190) !important;
+    border-radius:  0;
+    -webkit-box-shadow: 0 0 10px rgb(171, 162, 241);
+    box-shadow: 0 0 10px rgb(171, 162, 241);
+}
+.btn:hover {
+    background-color: rgb(61, 43, 190,0.9) !important;
+}
+
+
+.section-title {
+    text-align: center;
+    margin: 50px 0;
+    color: rgb(194, 186, 253);
+   
+
+}
+.about_us_title{
+    color: rgb(202, 195, 255) !important;
+}
+.product-card,.profile-card {
+    
+    background-color: rgb(43, 46, 59);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    
+  
+    height: 100%;
+}
+.service{
+     text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(180, 181, 190);
+   
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s;
+    height: 100%;
+}
+input, textarea{
+    background-color:rgb(180, 181, 190) !important ;
+}
+
+.service:hover, .product-card:hover, .profile-card:hover {
+    /* transform: translateY(-10px); */
+    -webkit-box-shadow: 0 0 10px rgb(171, 162, 241);
+    box-shadow: 0 0 10px rgb(171, 162, 241);
+}
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+.footer h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+.footer i {
+    margin-right: 0.5rem;
+}
+
+#icons {
+    font-size: 1.25rem;
+}
+
+.footer .d-inline {
+    vertical-align: middle;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+
+
+.footer {
+    background-color: rgb(6, 10, 68);;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.service-img {
+    width: 100%;  
+    height: 200px; 
+    object-fit: cover; 
+}
+.product-carosal-img{
+    width: 100%;  
+    height: 400px; 
+    object-fit: cover; 
+    align-content: center;
+}
+
+
+.developer-logo img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Keep aspect ratio */
+}
+
+#backToTop {
+    background-color: rgba(0, 123, 255, 0.275) !important; /* Change this color as needed */
+    color: white !important;
+    border: none !important;
+    border-radius: 100% !important;
+    padding: 10px 15px !important;
+    font-size: 16px !important;
+    transition: background-color 0.3s ease !important;
+   
+    
+}
+
+#backToTop:hover {
+    background-color: rgba(0, 123, 255, 0.593) !important; /* Darker shade on hover */
+}
+
+/* Ensure footer has relative positioning for absolute elements */
